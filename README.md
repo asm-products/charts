@@ -116,7 +116,7 @@ Once your environment is setup, clone the source and cd into the root of the Cha
 
         pip install -r requirements.txt
 
-2. Install redis-cli and run `redis-server`.
+2. Install redis and run `redis-server`.
 3. Run:
 
         python manage.py runserver
