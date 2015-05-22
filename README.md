@@ -113,6 +113,7 @@ You'll need python 2.7 and should [install pip](https://pip.pypa.io/en/latest/in
 Once your environment is setup, clone the source and cd into the root of the Chartspree repository. Then 
 
 1. Run:
+
         pip install -r requirements.txt
 
 2. Install redis-cli and run `redis-server`.
