@@ -110,13 +110,15 @@ Running your own copy of Chartspree
 
 You'll need python 2.7 and should [install pip](https://pip.pypa.io/en/latest/installing.html), and create a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for the server. 
 
-Once your environment is setup, clone the source and cd into the root of the Chartspree repository. Then run:
+Once your environment is setup, clone the source and cd into the root of the Chartspree repository. Then 
 
-    pip install -r requirements.txt
+1. Run:
+        pip install -r requirements.txt
 
-then
+2. Install redis-cli and run `redis-server`.
+3. Run:
 
-    python manage.py runserver
+        python manage.py runserver
 
 
 ### Running on heroku
@@ -128,6 +130,7 @@ Once your environment is setup, clone the source and cd into the root of the Cha
     heroku apps:create [your project name]
 
 then
+
 
     git push heroku
 
