@@ -146,13 +146,13 @@ some cases may stretch layouts. So, we're just hiding it.
               <h3>Show off with hover effects</h3>
               <p>Use an <span class="code">&lt;object&gt;</span> tag instead of <span class="code">&lt;img&gt;</span>. This gives you fancy hover-states.</p>
               <object type="image/svg+xml" data="http:{{config.API_ROOT}}/line.svg?Some=lorem_flat&Stuff=lorem_flat&_interpolate=cubic&_fill=true&_height=300px"></object>
-              <p class="code card">&lt;object type="image/svg+xml" data="http:{{config.API_ROOT}}/line.svg?Some=lorem_flat&Stuff=lorem_flat&_interpolate=cubic &_fill=true&_height=300px"&gt;&lt;/object&gt;</p>
+              <p class="code card">&lt;object type="image/svg+xml" data="http:{{config.API_ROOT}}/line.svg?Some=lorem_flat&Stuff=lorem_flat&_interpolate=cubic<wbr>&_fill=true&_height=300px"&gt;&lt;/object&gt;</p>
 
               <h3>Embed charts in emails</h3>
               <p>Use the <span class="code">.png</span> extension instead of <span class="code">.svg</span> and you get a PNG image that you can send through email without fear that it will not be rendered at the recipient's end.</p>
               <img src="http:{{config.API_ROOT}}/line.png?Some=lorem_flat&Stuff=lorem_flat&_height=300px&_interpolate=cubic" style="width: 100%">
               <p class="code card">
-                &lt;img src="http:{{config.API_ROOT}}/line<wbr><span class="tooltip hint--top" data-hint="Use the PNG extension for emails and other environments not supportive of SVG.">.png</span>?Some=lorem_flat&Stuff=lorem_flat&_height=300px&_interpolate=cubic"&gt;
+                &lt;img src="http:{{config.API_ROOT}}/line<span class="tooltip hint--top" data-hint="Use the PNG extension for emails and other environments not supportive of SVG.">.png</span>?Some=lorem_flat&Stuff=lorem_flat&_height=300px<wbr>&_interpolate=cubic"&gt;
               </p>
 
               <a name="lorem"></a><h3>Generate placeholder data</h3> 
