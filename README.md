@@ -112,12 +112,16 @@ You'll need python 2.7 and should [install pip](https://pip.pypa.io/en/latest/in
 
 Once your environment is setup, clone the source and cd into the root of the Chartspree repository. Then 
 
-1. Run:
+1. Install the cairo library. If you're on a mac you can:
+
+        brew install cairo
+
+2. Run:
 
         pip install -r requirements.txt
 
-2. Install redis and run `redis-server`.
-3. Run:
+3. Install redis and run `redis-server`.
+4. Run:
 
         python manage.py runserver
 
