@@ -134,7 +134,9 @@ Once your environment is setup, clone the source and cd into the root of the Cha
 
     heroku apps:create [your project name]
 
-then
+In charts/settings.py edit `SERVICE_URL` and `API_ROOT` to point to `[your project name].herokuapp.com` instead of `example.com`.
+
+Then
 
 
     git push heroku
